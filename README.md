@@ -1,16 +1,20 @@
-# flutter_application_1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ĐỀ ÁN PHÁT TRIỂN ỨNG DỤNG SMART TRAVEL – DU LỊCH THÔNG MINH
+Giới thiệu
+Trong thời đại công nghệ số, ngành du lịch đang đứng trước nhiều cơ hội cũng như thách thức mới. Du khách ngày nay không chỉ mong muốn tìm kiếm những điểm đến hấp dẫn mà còn kỳ vọng vào một hành trình được cá nhân hóa, tiết kiệm chi phí, đồng thời dễ dàng quản lý và lập kế hoạch. Với sự phát triển mạnh mẽ của trí tuệ nhân tạo (AI) và các nền tảng ứng dụng di động, việc xây dựng một hệ thống hỗ trợ du lịch thông minh trở nên khả thi và có ý nghĩa thực tiễn cao.
+Đề án Smart Travel – Du lịch Thông minh ra đời với mục tiêu mang đến một công cụ hỗ trợ toàn diện cho du khách, vừa đóng vai trò như một thư viện thông tin du lịch, vừa là một “trợ lý ảo” có khả năng đưa ra các gợi ý phù hợp theo sở thích, ngân sách và thời gian của từng cá nhân.
+Mục tiêu phát triển
+Mục tiêu tổng quát của dự án là phát triển một ứng dụng di động thông minh giúp người dùng có thể lập kế hoạch du lịch nhanh chóng, cá nhân hóa và tối ưu về chi phí. Ứng dụng hướng đến việc tích hợp trí tuệ nhân tạo để gợi ý lịch trình, phân tích dữ liệu, đồng thời cung cấp các công cụ so sánh, thống kê và lưu trữ kế hoạch cá nhân. Xa hơn, dự án kỳ vọng góp phần thúc đẩy quá trình số hóa trong ngành du lịch, phù hợp với xu thế du lịch thông minh 4.0 tại Việt Nam.
+Chức năng cốt lõi của hệ thống
+Ứng dụng Smart Travel được thiết kế với nhiều chức năng liên kết chặt chẽ, tạo nên một hệ sinh thái du lịch cá nhân hóa. Người dùng trước hết có thể tiếp cận danh sách điểm đến được phân loại theo loại hình du lịch như biển, núi, văn hóa – lịch sử, ẩm thực hay nghỉ dưỡng. Mỗi điểm đến đi kèm mô tả chi tiết, hình ảnh minh họa, giá vé tham khảo, cũng như các tour và dịch vụ liên quan. Việc tích hợp Google Maps cho phép hiển thị bản đồ và định vị trực tiếp, tạo thuận lợi trong việc hình dung hành trình.
+Điểm nhấn quan trọng của ứng dụng nằm ở khả năng gợi ý lịch trình bằng AI. Dựa trên sở thích cá nhân và khả năng tài chính của du khách, hệ thống có thể đề xuất từ một đến ba lịch trình phù hợp, bao gồm thông tin chi tiết về điểm đến, thời gian di chuyển, chi phí dự kiến và các hoạt động nổi bật. Người dùng được phép điều chỉnh các thông số như số lượng điểm đến hay mức độ ưu tiên giữa chi phí, trải nghiệm và thời gian, từ đó tạo nên một kế hoạch linh hoạt và thực tế.
+Bên cạnh đó, ứng dụng hỗ trợ công cụ tìm kiếm và lọc theo ngân sách. Người dùng chỉ cần nhập vào khoảng chi phí mong muốn, ví dụ dưới ba triệu đồng, hệ thống sẽ tự động hiển thị những tour hoặc điểm đến phù hợp. Việc kết hợp thêm các tiêu chí khác như thời gian đi (hai ngày một đêm, ba ngày hai đêm) hay loại hình du lịch sẽ giúp kết quả trở nên chính xác và sát nhu cầu hơn.
+Một chức năng khác có giá trị thực tiễn cao là khả năng so sánh chi phí. Người dùng có thể chọn nhiều điểm đến hoặc tour để hệ thống tổng hợp và hiển thị bảng so sánh toàn diện, bao gồm giá vé, thời gian di chuyển, thời gian lưu trú và đánh giá từ cộng đồng. Điều này giúp khách du lịch dễ dàng cân nhắc trước khi đưa ra quyết định.
+Ứng dụng cũng cung cấp công cụ tính toán chi phí chuyến đi. Khi người dùng chọn nhiều điểm đến, hệ thống sẽ tự động cộng dồn các khoản chi dự kiến, phân loại rõ ràng thành các mục di chuyển, lưu trú, ăn uống, vé tham quan và chi phí phát sinh. Các thông tin này được thể hiện bằng biểu đồ trực quan, giúp người dùng dễ dàng theo dõi và quản lý ngân sách.
+Ngoài ra, Smart Travel cho phép lưu trữ các địa điểm yêu thích, từ đó hình thành kế hoạch du lịch cá nhân. Các kế hoạch này có thể được chỉnh sửa, tham khảo lại hoặc chia sẻ với bạn bè và nhóm đi cùng. Tính năng đánh giá và phản hồi từ cộng đồng cũng đóng vai trò quan trọng, khi mỗi người dùng có thể để lại nhận xét, góp phần xây dựng nguồn dữ liệu khách quan cho các du khách khác.
+Một trong những điểm đặc biệt của ứng dụng là chatbot AI. Người dùng có thể trò chuyện trực tiếp với hệ thống, đặt những câu hỏi tự nhiên như “Đi Đà Lạt hai ngày một đêm với ngân sách ba triệu thì nên đi đâu?”. Chatbot sẽ dựa trên dữ liệu có sẵn kết hợp với AI để đưa ra gợi ý hợp lý, đồng thời đóng vai trò như một trợ lý ảo, nhắc nhở lịch trình hoặc cảnh báo khi chi phí vượt ngân sách.
+Cuối cùng, hệ thống còn cung cấp chức năng thống kê và nhật ký chuyến đi. Sau mỗi hành trình, ứng dụng tự động tổng hợp số địa điểm đã đi, tổng chi phí và tổng thời gian, đồng thời trình bày dưới dạng báo cáo trực quan. Người dùng có thể lưu trữ nhật ký này cho riêng mình hoặc chia sẻ trên mạng xã hội, biến nó thành một phần trong trải nghiệm du lịch hiện đại.
+Công nghệ triển khai
+Để hiện thực hóa ý tưởng, ứng dụng dự kiến sử dụng ngôn ngữ lập trình Kotlin kết hợp Jetpack Compose nhằm xây dựng giao diện hiện đại và tối ưu cho hệ điều hành Android. Hệ thống backend và cơ sở dữ liệu sẽ vận hành trên nền tảng Firebase, bao gồm Authentication và Firestore/Realtime Database, đảm bảo tính bảo mật và khả năng mở rộng.
+Trí tuệ nhân tạo được tích hợp thông qua OpenAI API, đóng vai trò gợi ý lịch trình và vận hành chatbot hỗ trợ hội thoại. Bản đồ và dữ liệu địa điểm được cung cấp bởi Google Maps API, trong khi các biểu đồ và thống kê được xử lý bằng thư viện MPAndroidChart hoặc Compose Charts. Toàn bộ công nghệ này phối hợp nhằm xây dựng một nền tảng thống nhất, linh hoạt và hiệu quả.
+Kết luận
+Smart Travel – Du lịch Thông Minh không chỉ là một ứng dụng di động đơn thuần, mà còn là một giải pháp toàn diện hướng đến việc số hóa ngành du lịch. Bằng cách kết hợp trí tuệ nhân tạo, dữ liệu trực quan và trải nghiệm người dùng làm trung tâm, ứng dụng mang đến khả năng lập kế hoạch nhanh chóng, tối ưu chi phí và gia tăng sự hài lòng cho du khách. Đề án kỳ vọng góp phần đưa công nghệ vào phục vụ đời sống, đồng thời tạo tiền đề cho sự phát triển của du lịch thông minh tại Việt Nam trong kỷ nguyên 4.0.
